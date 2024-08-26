@@ -40,7 +40,7 @@ const Countdown = ({ eventDate }) => {
 
   return (
     <div className="text-center">
-      <h2 className="md:text-5xl text-2xl text-[#47126B] font-regular mt-[25px] mb-4">Webinar Starts In:</h2>
+      <h2 className="md:text-5xl text-2xl text-[#47126B] font-regular mt-[25px] mb-4">Webinar registration stops in:</h2>
       <div className='mx-auto w-max place-content-center'><hr style={{ width: '350px', borderColor: '#F14A04', borderWidth: '1px', borderStyle: 'solid' }} /></div>
       <div className="flex mt-[20px] justify-center md:gap-[50px] gap-[25px] text-lg">
         {Object.keys(timeLeft).map((interval) => (
